@@ -1,0 +1,180 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0.5px;
+    padding: 0;
+}
+
+
+
+h1,h2,h3
+{text-align: center;}
+
+.contenedor{
+    position: relative;
+    display: flex;
+justify-content: center;
+align-items: center;
+background-color: blue;
+padding: 5px;
+width: auto;
+height: auto;
+}
+.img-banners{
+    position: relative;
+    background: url(banners/moto5.jpg)no-repeat center;
+    background-size: cover;
+    height: 500px;
+    overflow: hidden;
+
+
+}
+.contenedor-banner{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: rgb(224, 225, 225);
+    font-weight: 300;
+    text-transform: uppercase;
+
+
+}
+.contenedor-banner h1{
+    margin: 5px;
+    font-size: 40px;
+    
+
+}
+.contenedor-banner h1 span{
+    border: 6px rgb(244, 242, 242);
+    background-color: rgb(74, 74, 79);
+    padding: 6px 14px;
+    display: inline-block;
+}
+
+.center{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+    
+}
+
+
+
+.boton {
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 5px;
+    padding: 5px;
+    color: white;
+    box-shadow: blue;
+    background-color: rgb(72, 72, 191);
+}
+.btn-blue :active{
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 5px;
+    padding: 5px;
+    background-color: rgb(4, 15, 86);
+
+}
+
+
+.formatoimg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 20px;
+    border-left: blue;
+    border-right: black;
+}
+header h1{
+    color: aliceblue;
+}
+.container{
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(69, 173, 225); 
+    padding: 5px;
+}
+.img1{
+    width: 50%;
+    height: 50%;
+    border-radius: 20px;
+}
+.pie-pagina{
+    width: 100%;
+    background-color: black;
+
+}
+.pie-pagina .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+
+}
+.pie-pagina .grupo-1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pie-pagina .grupo-1 .box figure img{
+    width: 100px;
+}
+.pie-pagina .grupo-1 .box h2{
+    color: aliceblue;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+.pie-pagina .grupo-1 .box p{
+    color: aliceblue;
+    margin-bottom: 10px;
+    
+
+}
+.pie-pagina .grupo-1 .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: aliceblue;
+    margin-right: 10px;
+    background-color: rgb(23, 71, 226);
+    text-align: center;
+    transition: all 300ms ease;
+
+
+}
+.pie-pagina .grupo-1 .red-social a:hover{
+    color: blue;
+
+}
+.pie-pagina .grupo-2{
+    background-color: rgb(25, 89, 237);
+    padding: 15px 10px;
+    text-align: center;
+    color: aliceblue;
+
+}
+.pie-pagina .grupo-2 small{
+    font-size: 20px;
+}
+
+
+
+ 

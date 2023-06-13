@@ -1,0 +1,162 @@
+header{
+    height: 100px;
+    background:#4D4D5C;
+    padding: 0 50px;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    text-transform: uppercase;
+    color:#f8f8fa;
+    font-weight: 200;
+}
+.menu a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 0 10px;
+    transition: 0.4s;
+}
+.mostrar-menu,
+.esconder-menu{
+    font-size: 30px;
+    cursor: pointer;
+    display: none;
+    transition: 0.4s;
+}
+.mostrar-menu{
+    order: 1;
+}
+.menu a:hover,
+.mostrar-menu,
+.esconder-menu{
+    color: #142ef4;
+}
+#check{
+    display: none;
+}
+#contacto{
+    background: #16cdee;
+    padding: 50px 0px;
+    color: #0e0e0e;
+}
+#contacto h4{
+    text-align: center;
+    font-size: 25px;
+    color: #0d0d0d;
+}
+#contacto form{
+    max-width: 80%;
+    margin: 0 auto;
+}
+.datos-form{
+    display: flex;
+}
+.datos-form div{
+    padding: 10px;
+    flex: 1;
+}
+form label{
+    display: block;
+    margin-bottom: 10px;
+}
+form input,
+form textarea{
+    background: #0b60a6;
+    border-radius: 10px;
+    border: 2px solid #0d22dd;
+    padding: 10px 5px;
+    outline: 0;
+    color: #111111;
+    width: 100%;
+}
+form input:focus,
+form textarea:focus{
+    border-color: #1075b4;
+    box-shadow: 0 0 0 1px #1140ec;
+}
+form input::placeholder,
+form textarea::placeholder{
+    color: #111010;
+}
+.mensaje{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.boton-formulario .boton-mas-productos{
+    display: block;
+    border: 1px solid #1b0cf8;
+    color: #1118e3;
+    text-align: center;
+    transition: 0.4s;
+}
+.boton-formulario .boton-mas-productos:hover{
+    background: #270ee2ad;
+}
+.pie-pagina{
+    width: 100%;
+    background-color: black;
+
+}
+.pie-pagina .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+
+}
+.pie-pagina .grupo-1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pie-pagina .grupo-1 .box figure img{
+    width: 100px;
+}
+.pie-pagina .grupo-1 .box h2{
+    color: aliceblue;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+.pie-pagina .grupo-1 .box p{
+    color: aliceblue;
+    margin-bottom: 10px;
+    
+
+}
+.pie-pagina .grupo-1 .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: aliceblue;
+    margin-right: 10px;
+    background-color: rgb(23, 71, 226);
+    text-align: center;
+    transition: all 300ms ease;
+
+
+}
+.pie-pagina .grupo-1 .red-social a:hover{
+    color: blue;
+
+}
+.pie-pagina .grupo-2{
+    background-color: rgb(25, 89, 237);
+    padding: 15px 10px;
+    text-align: center;
+    color: aliceblue;
+
+}
+.pie-pagina .grupo-2 small{
+    font-size: 20px;
+}
